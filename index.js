@@ -16,11 +16,11 @@ const Termii = () => {
         type: "POST",
         body: JSON.stringify({
           to,
-          message,
+          sms:message,
           from,
           ...data,
         }),
-        header: {
+        headers: {
           "Content-Type": "Application/json",
           Accept: "Application/json",
         },
