@@ -6,7 +6,8 @@ module.exports = {
     output: {
         path: path.resolve('dist'),
         filename: 'index.js',
-        libraryTarget: 'Termii',
+        library: 'Termii',
+        libraryTarget: 'umd',
     },
     module: {
         rules: [
