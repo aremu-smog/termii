@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/aremu-smog/termii/issues"
   },
-  "homepage": "https://github.com/aremu-smog/termii#readme"
+  "homepage": "https://github.com/aremu-smog/termii#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
