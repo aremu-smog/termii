@@ -4,7 +4,8 @@
   "description": "A Javascript wrapper for termii messaging platform for businesses",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
