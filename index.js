@@ -38,6 +38,11 @@ const Termii = () => {
   const setApi = (key) => {
     data.api_key = key;
   };
+
+  return{
+    setApi,
+    send_sms
+  }
 };
 
 export default Termii;
