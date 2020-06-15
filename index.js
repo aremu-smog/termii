@@ -3,6 +3,7 @@ const TERMII_URL = "https://termii.com/api/sms/send";
 const Termii = () => {
   let data = {
     type: "plain",
+    media_url: "",
     channel: "generic",
     api_key: "",
     notify_url: "",
@@ -10,10 +11,10 @@ const Termii = () => {
   };
   const send_sms = (to, message, from) => {
     if (data.api_key == "") {
-      alert("Visit wwww.termii.com/dashboard to get your api key");
+      alert("Visit https://termii.com/account/api to get your api key");
     } else {
       fetch(TERMII_URL, {
-        type: "POST",
+        method: "POST",
         body: JSON.stringify({
           to,
           sms:message,
@@ -22,7 +23,7 @@ const Termii = () => {
         }),
         headers: {
           "Content-Type": "Application/json",
-          Accept: "Application/json",
+          "Accept": "Application/json",
         },
       })
         .then((res) => res.json())
