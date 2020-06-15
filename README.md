@@ -7,7 +7,7 @@ Javascript wrapper for [termii](http://www.termii.com) messaging platform for bu
 npm install termii
 ```
 
-#Usage
+# Usage
 ```
 import Termii from 'termii'
 
