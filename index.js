@@ -1,4 +1,4 @@
-const TERMII_URL = "https://termii.com/api/sms/number/send";
+const TERMII_URL = "https://termii.com/api/sms/send";
 
 const Termii = () => {
   let data = {
