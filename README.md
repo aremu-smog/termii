@@ -18,6 +18,10 @@ termiiInstance.setApi('YOUR_API_KEY')
 
 //Send SMS
 termiiInstance.send_sms('234THE_TARGET_NUMBER','Your message','SENDER_ID')
+
+//Send WhatsApp Message
+termiiInstance.send_sms('234THE_TARGET_NUMBER','Your message','SENDER_ID','whatsapp')
+//Take note that whatsapp was added as the fourth parameter
 ```
 
 ### Developed by Aremu Smog

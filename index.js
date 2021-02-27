@@ -4,26 +4,29 @@ const Termii = () => {
   let data = {
     type: "plain",
     media_url: "",
-    channel: "generic",
     api_key: "",
     notify_url: "",
     notify_id: "",
   };
-  const send_sms = (to, message, from) => {
-    if (data.api_key == "") {
+
+  const send_sms = (to, message, from, channel = "generic") => {
+    //Check if API key was set
+    if (data.api_key === "") {
       alert("Visit https://termii.com/account/api to get your api key");
     } else {
+      //Send POST Request to Termii's API
       fetch(TERMII_URL, {
         method: "POST",
         body: JSON.stringify({
           to,
-          sms:message,
+          sms: message,
           from,
           ...data,
+          channel,
         }),
         headers: {
           "Content-Type": "Application/json",
-          "Accept": "Application/json",
+          Accept: "Application/json",
         },
       })
         .then((res) => res.json())
@@ -40,10 +43,10 @@ const Termii = () => {
     data.api_key = key;
   };
 
-  return{
+  return {
     setApi,
-    send_sms
-  }
+    send_sms,
+  };
 };
 
 export default Termii;
