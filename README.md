@@ -22,6 +22,12 @@ termiiInstance.send_sms('234THE_TARGET_NUMBER','Your message','SENDER_ID')
 //Send WhatsApp Message
 termiiInstance.send_sms('234THE_TARGET_NUMBER','Your message','SENDER_ID','whatsapp')
 //Take note that whatsapp was added as the fourth parameter
+
+//Send OTP
+termiiInstance.send_otp('234THE_TARGET_NUMBER','SENDER_ID','dnd')
+
+//Verify OTP
+termiiInstance.verify_otp('XXXXX-XXXXX-XXXX-XXXX','123456')
 ```
 
 ### Developed by Aremu Smog
