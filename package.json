@@ -1,6 +1,6 @@
 {
-  "name": "node-termii",
-  "version": "1.0.0",
+  "name": "termii",
+  "version": "1.2.0",
   "description": "A Javascript wrapper for termii messaging platform for businesses",
   "main": "dist/index.js",
 
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fn-studyo/termii.git"
+    "url": "git+https://github.com/aremu-smog/termii.git"
   },
   "keywords": [
     "sms",
@@ -19,7 +19,12 @@
     "messaging",
     "termii"
   ],
-  "author": "Muritala David",
+  "author": "Aremu Oluwagbamila (SMOG)",
+  "contributes": {
+    "name" : "Muritala David",
+    "email" : "davmuri1414@gmail.com",
+    "url" : "https://github.com/Fn-studyo"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aremu-smog/termii/issues"
