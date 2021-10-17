@@ -1,6 +1,6 @@
 {
-  "name": "termii",
-  "version": "1.1.4",
+  "name": "node-termii",
+  "version": "1.0.0",
   "description": "A Javascript wrapper for termii messaging platform for businesses",
   "main": "dist/index.js",
 
@@ -10,14 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aremu-smog/termii.git"
+    "url": "git+https://github.com/Fn-studyo/termii.git"
   },
   "keywords": [
     "sms",
+    "otp",
+    "verify",
     "messaging",
     "termii"
   ],
-  "author": "Aremu Oluwagbamila (SMOG)",
+  "author": "Muritala David",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aremu-smog/termii/issues"

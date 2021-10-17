@@ -31,6 +31,7 @@ termiiInstance.verify_otp('XXXXX-XXXXX-XXXX-XXXX','123456')
 ```
 
 ### Developed by Aremu Smog
+# Muritala David made an edit
 [Twitter](https://twitter.com/aremu_smog) | [Instagram](https://instagram.com/aremu_smog) | [Website](http://aremu-smog.herokuapp.com)
 
 Greatly Inspired by [Ashinze Ekene](https://twitter.com/ashinzekene)'s [paystack-simple](https://github.com/ashinzekene/paystack-simple)
