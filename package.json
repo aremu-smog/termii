@@ -20,13 +20,11 @@
     "termii"
   ],
   "author": "Aremu Oluwagbamila (SMOG)",
-  "contributors": [
-    {
-      "name" : "Muritala David",
-      "email" : "davmuri1414@gmail.com",
-      "url" : "https://github.com/Fn-studyo"
-    }
-  ],
+  "contributors": [{
+    "name" : "Muritala David",
+    "email" : "davmuri1414@gmail.com",
+    "url" : "https://github.com/Fn-studyo"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aremu-smog/termii/issues"
