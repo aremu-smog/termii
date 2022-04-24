@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "A Javascript wrapper for termii messaging platform for businesses",
   "main": "dist/index.js",
-
+  "types": "index.d.ts",
   "scripts": {
     "build": "webpack --mode production",
     "prepare": "npm run build"
